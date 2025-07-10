@@ -22,7 +22,7 @@ function Hero() {
 
       {/* Foto de perfil*/}
       <img
-        src="/public/images/foto.png"
+        src="/images/foto.png"
         alt="Cristian Moreno"
         className="w-40 h-40 rounded-full mt-8 sm:mt-0 sm:ml-8 flex-shrink-0 object-cover"
       />
