@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import { FaGithub, FaLinkedin, FaDiscord, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 function Sidebar() {
   return (
@@ -34,16 +34,6 @@ function Sidebar() {
       </div>
       {/* Contactos abajo */}
       <div className="flex justify-start gap-4 mt-10 text-xl text-slate-400 ml-1">
-        <a
-          href="https://discord.com/cristianjosemoreno_60198"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="hover:text-teal-300 cursor-pointer">
-            <FaDiscord />
-          </span>
-        </a>
-
         <a
           href="https://www.linkedin.com/in/cristian-jose-moreno-berlanga/"
           target="_blank"
